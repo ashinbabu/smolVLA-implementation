@@ -4,6 +4,19 @@ This directory is isolated from `v1`, which contains the ALOHA experiment.
 The v2 pipeline targets a LeRobot-format LeIsaac SO101 dataset and reuses the
 preserved local LeRobot source from `../v1/lerobot/src` without modifying v1.
 
+## Environments
+
+Use the `smolvla` environment for dataset inspection and training. It must
+provide CUDA-enabled PyTorch, a compatible LeRobot source checkout, Transformers,
+PEFT, and PyAV (`av`). The training launcher uses `LEROBOT_SRC` when set, or
+defaults to `../v1/lerobot/src` for the original local layout.
+
+Use the separate `leisaac` environment for IsaacLab evaluation. It requires
+Python 3.11, Isaac Sim 5.1.0, IsaacLab 2.3.0, LeIsaac 0.4.0, and the LeRobot
+async inference dependencies. The simulator checkout and evaluator are external
+to this repository. See the root [README](../README.md) for the complete
+two-environment setup.
+
 ## First run
 
 Activate the existing environment, then run the checks from this directory:
