@@ -1,0 +1,18 @@
+# Generated training and evaluation artifacts
+v1/outputs/
+v2/outputs/
+v2/eval_videos/
+**/checkpoints/
+**/videos/
+**/frames/
+**/__pycache__/
+*.py[cod]
+
+# Vendored dependency repository; use the local LeRobot checkout separately.
+v1/lerobot/
+
+# Local tooling and environment files
+.env
+.venv/
+*.log
+.DS_Store

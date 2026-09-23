@@ -1,0 +1,131 @@
+{
+  "per_task": [
+    {
+      "task_group": "aloha",
+      "task_id": 0,
+      "metrics": {
+        "sum_rewards": [
+          112.0,
+          0.0,
+          503.0,
+          155.0,
+          524.0,
+          251.0,
+          245.0,
+          408.0,
+          58.0,
+          263.0,
+          72.0,
+          320.0,
+          0.0,
+          493.0,
+          1.0,
+          94.0,
+          0.0,
+          366.0,
+          370.0,
+          90.0
+        ],
+        "max_rewards": [
+          2.0,
+          0.0,
+          3.0,
+          1.0,
+          3.0,
+          4.0,
+          4.0,
+          3.0,
+          1.0,
+          3.0,
+          1.0,
+          3.0,
+          0.0,
+          3.0,
+          1.0,
+          1.0,
+          0.0,
+          3.0,
+          3.0,
+          2.0
+        ],
+        "successes": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "video_paths": [
+          "/home/ashin/smolVLA/eval/results/pretrained_020000_tasktext/videos/aloha_0/eval_episode_0.mp4",
+          "/home/ashin/smolVLA/eval/results/pretrained_020000_tasktext/videos/aloha_0/eval_episode_1.mp4",
+          "/home/ashin/smolVLA/eval/results/pretrained_020000_tasktext/videos/aloha_0/eval_episode_2.mp4",
+          "/home/ashin/smolVLA/eval/results/pretrained_020000_tasktext/videos/aloha_0/eval_episode_3.mp4",
+          "/home/ashin/smolVLA/eval/results/pretrained_020000_tasktext/videos/aloha_0/eval_episode_4.mp4",
+          "/home/ashin/smolVLA/eval/results/pretrained_020000_tasktext/videos/aloha_0/eval_episode_5.mp4",
+          "/home/ashin/smolVLA/eval/results/pretrained_020000_tasktext/videos/aloha_0/eval_episode_6.mp4",
+          "/home/ashin/smolVLA/eval/results/pretrained_020000_tasktext/videos/aloha_0/eval_episode_7.mp4",
+          "/home/ashin/smolVLA/eval/results/pretrained_020000_tasktext/videos/aloha_0/eval_episode_8.mp4",
+          "/home/ashin/smolVLA/eval/results/pretrained_020000_tasktext/videos/aloha_0/eval_episode_9.mp4"
+        ],
+        "predicted_video_paths": []
+      }
+    }
+  ],
+  "per_group": {
+    "aloha": {
+      "avg_sum_reward": 216.25,
+      "avg_max_reward": 2.05,
+      "pc_success": 10.0,
+      "n_episodes": 20,
+      "video_paths": [
+        "/home/ashin/smolVLA/eval/results/pretrained_020000_tasktext/videos/aloha_0/eval_episode_0.mp4",
+        "/home/ashin/smolVLA/eval/results/pretrained_020000_tasktext/videos/aloha_0/eval_episode_1.mp4",
+        "/home/ashin/smolVLA/eval/results/pretrained_020000_tasktext/videos/aloha_0/eval_episode_2.mp4",
+        "/home/ashin/smolVLA/eval/results/pretrained_020000_tasktext/videos/aloha_0/eval_episode_3.mp4",
+        "/home/ashin/smolVLA/eval/results/pretrained_020000_tasktext/videos/aloha_0/eval_episode_4.mp4",
+        "/home/ashin/smolVLA/eval/results/pretrained_020000_tasktext/videos/aloha_0/eval_episode_5.mp4",
+        "/home/ashin/smolVLA/eval/results/pretrained_020000_tasktext/videos/aloha_0/eval_episode_6.mp4",
+        "/home/ashin/smolVLA/eval/results/pretrained_020000_tasktext/videos/aloha_0/eval_episode_7.mp4",
+        "/home/ashin/smolVLA/eval/results/pretrained_020000_tasktext/videos/aloha_0/eval_episode_8.mp4",
+        "/home/ashin/smolVLA/eval/results/pretrained_020000_tasktext/videos/aloha_0/eval_episode_9.mp4"
+      ],
+      "predicted_video_paths": []
+    }
+  },
+  "overall": {
+    "avg_sum_reward": 216.25,
+    "avg_max_reward": 2.05,
+    "pc_success": 10.0,
+    "n_episodes": 20,
+    "eval_s": 223.03850841522217,
+    "eval_ep_s": 11.151925909519196,
+    "video_paths": [
+      "/home/ashin/smolVLA/eval/results/pretrained_020000_tasktext/videos/aloha_0/eval_episode_0.mp4",
+      "/home/ashin/smolVLA/eval/results/pretrained_020000_tasktext/videos/aloha_0/eval_episode_1.mp4",
+      "/home/ashin/smolVLA/eval/results/pretrained_020000_tasktext/videos/aloha_0/eval_episode_2.mp4",
+      "/home/ashin/smolVLA/eval/results/pretrained_020000_tasktext/videos/aloha_0/eval_episode_3.mp4",
+      "/home/ashin/smolVLA/eval/results/pretrained_020000_tasktext/videos/aloha_0/eval_episode_4.mp4",
+      "/home/ashin/smolVLA/eval/results/pretrained_020000_tasktext/videos/aloha_0/eval_episode_5.mp4",
+      "/home/ashin/smolVLA/eval/results/pretrained_020000_tasktext/videos/aloha_0/eval_episode_6.mp4",
+      "/home/ashin/smolVLA/eval/results/pretrained_020000_tasktext/videos/aloha_0/eval_episode_7.mp4",
+      "/home/ashin/smolVLA/eval/results/pretrained_020000_tasktext/videos/aloha_0/eval_episode_8.mp4",
+      "/home/ashin/smolVLA/eval/results/pretrained_020000_tasktext/videos/aloha_0/eval_episode_9.mp4"
+    ],
+    "predicted_video_paths": []
+  }
+}
